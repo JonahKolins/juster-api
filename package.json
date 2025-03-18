@@ -10,7 +10,8 @@
         "lint": "eslint . --ext .ts",
         "test": "jest",
         "migrate": "prisma migrate dev",
-        "generate": "prisma generate"
+        "generate": "prisma generate",
+        "startdb": "prisma studio"
     },
     "keywords": ["auth", "api", "typescript", "express"],
     "author": "",
